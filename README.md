@@ -271,4 +271,5 @@ Pie Chart: Copied the gender pie chart from Analysis 2 to show leave balance dis
 ---
 
 -- Summary
+
 This Power BI project provides a comprehensive analysis of HR data through various visualizations, including bar charts, pie charts, scatter charts, line charts, and tables. Transformations in Power Query and DAX measures enhance the ability to derive meaningful insights, such as employee headcounts, salary trends, age distributions, and leave balance analysis. The use of slicers and filters allows for interactive exploration of the data, making it a robust tool for HR analytics.
