@@ -1,4 +1,5 @@
-###Power BI Project: HR Data Analytics Report
+### Power BI Project: HR Data Analytics Report
+
 Overview
 This report outlines the process of creating an HR Data Analytics report in Power BI using an Excel sheet named "HR Data" with the following columns:
 
