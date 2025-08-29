@@ -3,19 +3,19 @@
 Overview
 This report outlines the process of creating an HR Data Analytics report in Power BI using an Excel sheet named "HR Data" with the following columns:
 
-Name
-Emp ID
-Gender
-Educational Qualification
-Date of Joining
-Job Title
-Salary
-Age
-Leave Balance
+Name,
+Emp ID,
+Gender,
+Educational Qualification,
+Date of Joining,
+Job Title,
+Salary,
+Age,
+Leave Balance,
 
 The report includes various analyses to gain insights into the HR data, along with the transformations and visualizations used in Power BI.
 ---
--Data Transformations
+- Data Transformations
 
 Imported Data:
 
@@ -29,7 +29,7 @@ Age: Number
 
 ---
 Analyses and Visualizations
-##1. How Many People Are in Each Job?
+## 1. How Many People Are in Each Job?
 
 Objective: Count the number of employees per job title.
 Measure Created:
@@ -46,7 +46,7 @@ X-Axis: Headcount
 
 
 
-##2. Gender Breakdown of the Staff
+## 2. Gender Breakdown of the Staff
 
 Objective: Show the gender distribution across the organization, with the ability to filter by job title.
 Visualization:
@@ -61,7 +61,7 @@ Slicer: Job Title (allows filtering by job title to see gender breakdown per rol
 
 
 
-##3. Age Spread of the Staff
+## 3. Age Spread of the Staff
 
 Objective: Analyze the age distribution of employees, grouped into 5-year bins.
 Transformation:
@@ -91,7 +91,7 @@ Observed blank graphs in small multiples; adjusted in Format Visuals > Small Mul
 
 
 
-##4. Which Jobs Pay More?
+## 4. Which Jobs Pay More?
 
 Objective: Compare average, minimum, and maximum salaries across job titles.
 Measures Created:
@@ -109,7 +109,7 @@ Columns: Job Title, Avg. Salary, Headcount, Min. Salary, Max. Salary
 
 
 
-##5. Top Earners in Each Job
+## 5. Top Earners in Each Job
 
 Objective: Identify the top 3 and bottom 3 earners for each job title.
 Steps:
@@ -136,7 +136,7 @@ Two tables: one for top 3 earners, one for bottom 3 earners.
 
 
 
-##6. Qualification vs. Salary
+## 6. Qualification vs. Salary
 
 Objective: Analyze the relationship between educational qualifications and salary.
 Transformation:
@@ -177,7 +177,7 @@ Y-Axis Range: Set minimum to 0 and maximum to 5 to prevent circles from being cu
 
 
 
-##7. Staff Growth Trend Over Time
+## 7. Staff Growth Trend Over Time
 
 Objective: Show the cumulative growth of employees over time.
 Measure Created:
@@ -213,7 +213,7 @@ Displays total employees over time, showing company growth.
 
 
 
-##8. Employee Filter by Starting Letter
+## 8. Employee Filter by Starting Letter
 
 Objective: Filter employees based on the first letter of their name.
 Transformation:
@@ -235,7 +235,7 @@ Card Visual: Displayed Headcount to show the count of employees for the selected
 
 
 
-##9. Leave Balance Analysis
+## 9. Leave Balance Analysis
 
 Objective: Analyze the average leave balance and count employees with leave balances exceeding 20 days (4 weeks).
 Measures Created:
